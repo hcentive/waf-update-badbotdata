@@ -1,0 +1,11 @@
+{
+  "name": "waf-update-badbotdata",
+  "version": "1.0.0",
+  "description": "Updates WAF string match conditions to block badbots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satyendra Sharma <satyendra.sharma@hcentive.com>",
+  "license": "ISC"
+}

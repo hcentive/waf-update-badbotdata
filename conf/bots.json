@@ -1,0 +1,7 @@
+{
+  "url" : [
+    "https://raw.githubusercontent.com/SpiderLabs/owasp-modsecurity-crs/v3.0/master/rules/crawlers-user-agents.data",
+    "https://raw.githubusercontent.com/SpiderLabs/owasp-modsecurity-crs/v3.0/master/rules/scanners-user-agents.data",
+    "https://raw.githubusercontent.com/SpiderLabs/owasp-modsecurity-crs/v3.0/master/rules/scripting-user-agents.data"
+  ]
+}
