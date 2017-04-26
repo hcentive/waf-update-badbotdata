@@ -130,6 +130,12 @@ var getBadBotData = function(callback) {
   });
 };
 
+var updateByteMatchSets = function (event, context) {
+  getBadBotData(function(err, byteMatchSets) {
+    console.log(byteMatchSets);
+  });
+};
+
 function callback(err, data) {
   if (err) {
     console.log(err, err.stack);
@@ -138,4 +144,4 @@ function callback(err, data) {
   }
 }
 
-getBadBotData(callback);
+updateByteMatchSets(null, null);
